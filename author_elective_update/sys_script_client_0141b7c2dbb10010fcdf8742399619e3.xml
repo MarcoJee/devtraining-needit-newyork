@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Training scrip to display a message on load of a form</description>
+        <field>active</field>
+        <global>false</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>u_MJ_train_load screen</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Test script for setting message if change manager request himself
+   alert("Thanks for creating a new change");
+//    alert("g_user.firstName = " + g_user.firstName
+//		+ ", \n g_user.lastName = " + g_user.lastName
+//		+ ", \n g_user.userName = " + g_user.lastName
+//		+ ", \n g_user.userID = " + g_user.userID);
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-20 09:56:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0141b7c2dbb10010fcdf8742399619e3</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>u_MJ_train_load screen</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_client_0141b7c2dbb10010fcdf8742399619e3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-31 09:06:12</sys_updated_on>
+        <table>change_request</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view>Marco change</view>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>1104b936dbab17c8ff27d5b0cf961954</instance_id>
+        <instance_name>dev68090</instance_name>
+        <name>sys_script_client_0141b7c2dbb10010fcdf8742399619e3</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Training scrip to display a message on load of a form&lt;/description&gt;&lt;field&gt;active&lt;/field&gt;&lt;global&gt;false&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;u_MJ_train_load screen&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+   //Test script for setting message if change manager request himself
+   alert("Thanks for creating a new change");
+//    alert("g_user.firstName = " + g_user.firstName
+//		+ ", \n g_user.lastName = " + g_user.lastName
+//		+ ", \n g_user.userName = " + g_user.lastName
+//		+ ", \n g_user.userID = " + g_user.userID);
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-12-20 09:56:31&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;0141b7c2dbb10010fcdf8742399619e3&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_MJ_train_load screen&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_0141b7c2dbb10010fcdf8742399619e3&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-12-31 09:06:12&lt;/sys_updated_on&gt;&lt;table&gt;change_request&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view&gt;Marco change&lt;/view&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2037973396</payload_hash>
+        <record_name>u_MJ_train_load screen</record_name>
+        <reverted_from/>
+        <source>8bc30ca7dbd10010fcdf874239961925</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-31 09:06:12</sys_created_on>
+        <sys_id>2735d0fddb420010fcdf87423996198e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f5b349f1c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-31 09:06:12</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>af35d0fd724200100790d9775de2478d</update_guid>
+        <update_guid_history>af35d0fd724200100790d9775de2478d:-2037973396,7d545c7d034200101848ab14ec3ae75e:-1893888836,5a4490bd56420010a49db273f0d71755:761745884,346010b9cd420010c315f70dbd4cb01c:203442890,adef80b926420010ca7847171331bc51:761745884,9d9fc879e9420010ac24cd9dc36e7eb3:-1893888836,5d477bc673b10010cabc62c6e6c9e746:-1208581650</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-02 13:28:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>85590cee725c4d0a8eee1b4c94f06584</sys_id>
+        <sys_metadata>0141b7c2dbb10010fcdf8742399619e3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_MJ_train_load screen</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="Change Request">6483c427dbd10010fcdf874239961998</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_script_client_0141b7c2dbb10010fcdf8742399619e3</sys_update_name>
+        <sys_update_version display_value="sys_script_client_0141b7c2dbb10010fcdf8742399619e3">2735d0fddb420010fcdf87423996198e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-02 13:28:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
